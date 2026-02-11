@@ -5,17 +5,18 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Status](https://img.shields.io/badge/Status-Stable-green)
 
-Una API de gestión de inventario profesional, ligera y fácil de usar.
+Una API de gestión de inventarios profesional, ligera y fácil de usar para Spigot.
 
 ![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
 
 ## 🔥 Información
 
-- **Versión:** 1.8.8 - 1.12.2
-- **Optimización:** Nuestro sistema de MenuAPI se encuentra totalmente optimizado para ofrecer el mejor rendimiento dentro de cualquier plugin.
+- **Compatibilidad:** 1.8.8 - 1.12.2  
+- **Optimización:** MenuAPI está completamente optimizada para ofrecer el mejor rendimiento dentro de cualquier plugin.  
+- **Estado:** Estable  
 
-¿Encontraste algún error o necesitas soporte?
-Contáctame mediante **[Discord](https://dsc.gg/nex7dev)** o puedes enviarme solicitud a **nex7dev**.
+¿Encontraste algún error o necesitas soporte?  
+Contáctame mediante **[Discord](https://dsc.gg/nex7dev)** o envíame solicitud a **nex7dev**.
 
 ![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
 
@@ -79,18 +80,31 @@ public class ExampleMenu extends Menu {
         ));
     }
 }
+```
 
-## Abrir el menú
+![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
+
+## 🚀 Abrir el menú
+
 Puedes registrar y abrir el menú mediante comandos usando el siguiente código:
+
+```java
 Player player = (Player) sender;
 new ExampleMenu().open(player);
+```
+
+![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
 
 ## 🛠️ Instalación
-Añade la dependencia a tu archivo pom.xml:
+
+Añade la dependencia a tu archivo `pom.xml`:
+
+```xml
 <dependency>
     <groupId>me.nex7dev</groupId>
     <artifactId>menuapi</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
+```
 
-
+![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
