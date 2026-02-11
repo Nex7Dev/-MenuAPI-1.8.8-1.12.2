@@ -10,8 +10,8 @@ import java.util.Map;
 
 public abstract class Menu implements InventoryHolder {
 
-    private final Inventory inventory;
-    private final Map<Integer, Button> buttons;
+    protected final Inventory inventory;
+    protected final Map<Integer, Button> buttons;
 
     public Menu(String title, int size) {
         this.inventory = Bukkit.createInventory(this, size, title);
